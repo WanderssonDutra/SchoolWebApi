@@ -1,5 +1,7 @@
 package Project.Web.student;
 
+import jakarta.validation.constraints.NotBlank;
+
 import java.time.LocalDate;
 
 public record StudentRequestDTO(String cpf, String name, String email, String password,
