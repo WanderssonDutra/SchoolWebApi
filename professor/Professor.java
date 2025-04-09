@@ -1,12 +1,8 @@
 package Project.Web.professor;
 
-import Project.Web.student.Student;
-import Project.Web.student.StudentRequestDTO;
 import Project.Web.user.User;
 import jakarta.persistence.Entity;
 import lombok.*;
-
-import java.time.LocalDate;
 import java.util.Optional;
 
 @Entity(name="Professor")
